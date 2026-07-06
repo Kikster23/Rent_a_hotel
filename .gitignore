@@ -1,0 +1,17 @@
+__history/
+Win32/
+*.tds
+*.ils
+*.ilf
+*.ilc
+*.ild
+*.pdi
+*.map
+*.obj
+*.pch
+*.local
+*.identcache
+*.stat
+*.dll
+*.lib
+*.exe

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xdb="http://www.borland.com/schemas/delphi/10.0/XMLDataBinding">
+	<xs:element name="logovi" type="logoviType"/>
+	<xs:complexType name="logoviType"><xs:annotation>
+			<xs:appinfo xdb:docElement="logovi"/>
+		</xs:annotation>
+		<sequence xmlns="http://www.w3.org/2001/XMLSchema">
+			<xs:element name="log" type="logType" maxOccurs="unbounded"/>
+		</sequence>
+	</xs:complexType>
+	<xs:complexType name="logType"><xs:annotation>
+			<xs:appinfo xdb:repeated="True"/>
+		</xs:annotation>
+		<sequence xmlns="http://www.w3.org/2001/XMLSchema">
+			<xs:element name="datum" type="xs:string"/>
+			<xs:element name="id" type="xs:string"/>
+			<xs:element name="aktivnost" type="xs:string"/>
+		</sequence>
+	</xs:complexType>
+</xs:schema>

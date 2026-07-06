@@ -1,0 +1,18 @@
+{
+  "recepcije": [
+    {
+      "ime": "Dubrovnik",
+      "grad": "Zadar",
+      "broj_telefona": "0923624412",
+      "email": "dubro@gmail.com",
+      "radnovrijeme": "08 do 16"
+    },
+    {
+      "ime": "Westin",
+      "grad": "Zagreb",
+      "broj_telefona": "0914731231",
+      "email": "westin@gmail.com",
+      "radnovrijeme": "07 do 20"
+    }
+  ]
+}
